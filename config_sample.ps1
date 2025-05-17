@@ -5,6 +5,7 @@
 # general configuration
 $InstallPath = "C:\restic"
 $ExeName = "restic.exe"
+$ResticExe = Join-Path $InstallPath $ExeName
 $GlobalParameters = @()
 $LogRetentionDays = 30
 $BackupOnMeteredNetwork = $true
